@@ -10,6 +10,10 @@ import { MatMenuModule } from '@angular/material/menu';
 import { MatFormFieldModule  } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { MatCardModule } from '@angular/material/card';
+import { MatDialogModule } from '@angular/material/dialog';
+import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
+import { MatTableModule } from '@angular/material/table';
+
 
 
 @NgModule({
@@ -26,7 +30,9 @@ import { MatCardModule } from '@angular/material/card';
     MatFormFieldModule,
     MatInputModule,
     MatCardModule,
-
+    MatProgressSpinnerModule,
+    MatDialogModule,
+    MatTableModule,
 
   ],
   exports: [
@@ -40,7 +46,9 @@ import { MatCardModule } from '@angular/material/card';
     MatFormFieldModule,
     MatInputModule,
     MatCardModule,
-    
+    MatProgressSpinnerModule,
+    MatDialogModule,
+    MatTableModule,  
 
   ]
 })

@@ -25,7 +25,6 @@ import { MaterialModule } from '../shared/modules/material.module';
     SharedModule,
     ReactiveFormsModule,
     DashboardRoutingModule,
-    MaterialModule
   ]
 })
 export class DashboardModule { }

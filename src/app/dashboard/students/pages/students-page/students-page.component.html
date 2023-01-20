@@ -3,7 +3,7 @@
         Crear estudiante
     </button>
 </div>
-<table mat-table dataSource="(students | async) || []">
+<table mat-table [dataSource]="(students | async) || []">
     <ng-container matColumnDef="id">
         <th mat-header-cell *matHeaderCellDef>No.</th>
         <td mat-cell *matCellDef="let element">{{ element.id }}</td>

@@ -6,8 +6,6 @@ import { HttpClientModule } from '@angular/common/http';
 import { ReactiveFormsModule } from '@angular/forms';
 import { SharedModule } from '../shared/shared.module';
 import { AuthRoutingModule } from './auth-routing.module';
-import { MaterialModule } from '../shared/modules/material.module';
-
 
 
 @NgModule({
@@ -20,7 +18,6 @@ import { MaterialModule } from '../shared/modules/material.module';
     HttpClientModule,
     SharedModule,
     AuthRoutingModule,
-    MaterialModule
   ],
   providers: [
     AuthService
